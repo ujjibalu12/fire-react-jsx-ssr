@@ -1,0 +1,10 @@
+/node_modules/
+/test/node_modules/
+/test/out/
+/.idea/
+/dist/
+/test/components/
+/test/de_pages/
+/test/scripts/
+yarn.lock
+yarn-error.log

@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "ES2017",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "declaration": true,
+    "lib": [
+      "ES2017",
+      "DOM"
+    ],
+    "jsx": "react"
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "code/node_modules"
+  ]
+}

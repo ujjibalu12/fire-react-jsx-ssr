@@ -1,0 +1,90 @@
+{
+  "name": "fire-react-jsx-ssr",
+  "version": "0.10.2",
+  "license": "GPL-3.0-or-later",
+  "description": "The React Framework for SSB, SSR and Serverless technologies",
+  "bin": {
+    "firejsx": "bin/index.js"
+  },
+  "keywords": [
+    "react",
+    "react-static",
+    "gatsby",
+    "nextjs",
+    "jsx",
+    "SSR",
+    "SSB",
+    "framework",
+    "js",
+    "nodejs",
+    "cli",
+    "backend",
+    "front-end",
+    "express",
+    "web",
+    "html",
+    "web-app"
+  ],
+  "engines": {
+    "node": ">=10.21.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ujjibalu12/fire-react-jsx-ssr.git"
+  },
+  "private": false,
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/plugin-transform-modules-commonjs": "^7.12.1",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@babel/runtime": "^7.12.1",
+    "@hot-loader/react-dom": "^16.14.0",
+    "@types/mime": "^2.0.3",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "compression": "^1.7.4",
+    "css-loader": "^5.0.0",
+    "express": "^4.17.1",
+    "fs-extra": "^9.0.1",
+    "jsdom": "^16.4.0",
+    "lodash": "^4.17.20",
+    "memory-fs": "^0.5.0",
+    "mime": "^2.4.6",
+    "mini-css-extract-plugin": "^1.0.0",
+    "react-helmet": "^6.1.0",
+    "react-hot-loader": "^4.13.0",
+    "smartarg": "^1.0.1",
+    "ssr-window": "^2.0.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.44.2",
+    "webpack-hot-middleware": "^2.25.0",
+    "yaml": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/types": "^7.12.12",
+    "@types/express": "^4.17.11",
+    "@types/fs-extra": "^9.0.6",
+    "@types/jsdom": "^16.2.4",
+    "@types/lodash": "^4.14.168",
+    "@types/node": "^14.11.10",
+    "@types/react": "^16.9.53",
+    "@types/webpack": "^4.41.26",
+    "chokidar": "^3.4.3",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  },
+  "peerDependencies": {
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  },
+  "scripts": {
+    "dev": "sh scripts/sync.sh",
+    "autopublish": "sh scripts/autopublish.sh",
+    "publishCanary": "yarn autopublish canary",
+    "publishDev": "yarn autopublish dev",
+    "publishNext": "yarn autopublish next"
+  }
+}
